@@ -21,7 +21,7 @@ The primary objectives of this project are to:
 - Identify the most influential clinical features contributing to cardiovascular disease prediction.
 - Evaluate model performance using appropriate classification metrics.
 - Develop an interactive Streamlit web application for real-time cardiovascular disease prediction.
-- ---
+---
 
 ## 📊 Dataset
 
@@ -64,7 +64,7 @@ cvd-research-project/
 │
 ├── data/
 │   ├── cardio_train.csv            # Cardiovascular disease dataset
-│   └── README.md                   # Dataset documentation                          # Raw and processed datasets
+│   └── README.md                   # Dataset documentation                         
 │
 ├── images/                         # Project figures and screenshots
 │
@@ -131,6 +131,7 @@ Multiple supervised machine learning models were trained and compared, including
 - Tuned XGBoost
 
 ### 5. Model Evaluation
+Each machine learning model was evaluated using Accuracy, Precision, Recall, F1-score, and ROC-AUC to determine the best-performing model for deployment.
 
 ---
 
@@ -172,7 +173,7 @@ A correlation heatmap was generated to examine the strength and direction of rel
 
 Each model was evaluated using several performance metrics before selecting the best-performing model.
 
-### 6. 🌐 Streamlit Web Application
+# 🌐 Streamlit Web Application
 
 The final tuned XGBoost model was deployed using a Streamlit web application, allowing users to make real-time cardiovascular disease predictions through an interactive interface.
 
@@ -246,6 +247,14 @@ Potential future enhancements include:
 
 ---
 
+# 📌 Key Results
+
+- Successfully developed multiple machine learning classification models.
+- Tuned XGBoost achieved the best predictive performance.
+- Built an interactive Streamlit web application for real-time cardiovascular disease prediction.
+- Conducted exploratory data analysis and comprehensive model evaluation.
+- Identified key clinical features associated with cardiovascular disease prediction.
+  
 # 👨‍💻 Author
 
 **Reginald Didia**
